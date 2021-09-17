@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(114, 114, 114);
+    font-family: 'Lato', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.card {
+    background: #000000d0;
+    color: rgb(241, 241, 241);
+    padding: 2rem;
+    border-radius: 39px;
+    width: 80%;
+    max-width: 640px;
+    margin: 1rem;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.temp {
+    font-size: 30px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+button {
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    outline: none;
+    background: #7c7c7c2b;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #cacaca48 ;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0.5rem 1rem;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-size: 120%;
+    width: calc(100% - 100px);
+}
+
+.city {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    padding: 0 0 15px 0;
+}
+
+.temp {
+    font-size: 30px;
+}
+
+.description{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.humidity {
+    font-size: 20px;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+
+.wind {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.loading {
+    display: none;
+}
+
